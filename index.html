@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutuja Fitness Centre</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('imgs/img3.jpg');
+        }
+
+        .left{
+            position: absolute;
+            left: 34px;
+            top: 15px;
+       
+
+            display: inline-block;
+            
+            /* border: 2px solid yellow; */
+            
+        }
+        .left div{
+            text-align: center;
+           font-size: 15px;
+           color: blanchedalmond;
+        }
+
+        .left img{
+            width: 75px;
+            /* filter: invert(100%); */
+        }
+
+        .mid{
+            /* border: 2px solid black; */
+            display: block;
+            width: 34%;
+            /* to bring something in middle use auto  */
+            margin: 21px auto;
+            
+            
+        }
+
+    .right{
+        /* absolute to change its position relative to parent */
+        position: absolute;
+        right: 34px;
+        top: 15px;
+       
+        /* border: 2px solid purple; */
+        display: inline-block;
+    }
+    .nav{
+        display: inline-block;
+    }
+
+    .nav li{
+        display: inline-block;
+        font-size: 18px;
+
+    }
+
+    .nav li a{
+        color: beige;
+        text-decoration: none;
+        padding: 12px;
+
+    }
+
+    .nav li a:hover ,.nav li a.active
+    {
+        color: blue;
+        text-decoration: underline;
+    }
+    .btn{
+
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 6px 7px;
+        border: 2px solid gray;
+        border-radius: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .btn:hover{
+        color: mediumblue;
+        background-color: gray;
+    }
+    .container{
+        border: 2px solid gray;
+        margin: 96px 800px;
+        padding: 5px 17px;
+        width: 29%;
+        border-radius: 12px;
+    }
+
+    .formgrup input{
+
+        text-align: center;
+        display: block;
+        width: 150px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 13px auto;
+        font-size: 15px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+
+    h1{
+        text-align: center;
+        color: blanchedalmond;
+    }
+    .container button{
+        display: block;
+        width: 35%;
+        margin: auto;
+    }
+
+    
+    
+    
+    
+
+    </style>
+    <body>
+        <header class="header">
+            
+            
+      <div class="left">
+        <img src="imgs/img2.png" alt="">
+        <div>
+            Rutuja Fitness
+        </div>
+
+      </div>
+      
+      <div class="mid">
+        <ul class="nav">
+            <li> <a href="">Home</a> </li>
+            <li> <a href="">About us</a> </li>
+            <li> <a href="">Fitness material</a> </li>
+            <li> <a href="">contact us</a> </li>
+        </ul>
+
+      </div>
+
+      <div class="right">
+        <button class="btn">
+            call us now
+        </button>
+        <button class="btn">
+            email us
+        </button>
+
+      </div>
+      </header>
+      <div class="container">
+         <h1>Join the best gym of Pune now</h1>
+         <form action="roaction.php">
+             <div class="formgrup">
+                 <input type="text" name="" placeholder="Enter your name">
+             </div>
+             <div class="formgrup">
+                <input type="text" name="" placeholder="Enter your mobile no">
+            </div>
+            <div class="formgrup">
+                <input type="text" name="" placeholder="Enter your email id">
+            </div>
+            <div class="formgrup">
+                <input type="text" name="" placeholder="Enter your address">
+            </div>
+            <button class="btn">Submit</button>
+         </form>
+      </div>
+
+      
+
+    </body>
